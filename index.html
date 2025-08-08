@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohan krishna | IT Engineer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background: #111827;
+      flex-wrap: wrap;
+    }
+
+    nav h1 {
+      font-size: 24px;
+      color: #00d9ff;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 40px 20px;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #00d9ff;
+    }
+
+    .about-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .about-content img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 100px;
+      border: 3px solid #00d9ff;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skills-list li {
+      background: #00d9ff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      list-style: none;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-left: 5px solid #00d9ff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    #contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    #contact-form button {
+      padding: 10px;
+      background: #00d9ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f2937;
+      color: white;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Mohan Krishna M</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Hi, I'm Mohan Krishna – IT Engineer</h2>
+      <p>Aspiring IT Engineer passionate about Technology.</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="profile.jpg" alt="Profile Picture" />
+      <p>I’m an aspiring IT Engineer passionate about building practical solutions through technology. I have hands-on experience in Android app development, front-end technologies, and software tools like Android Studio and Visual Studio Code, with a strong interest in backend systems and real-world application development.</p>
+    </div>
+  </section>
+
+   </section>
+  <section id="contact">
+  <h2>Details</h2>
+  <div style="line-height: 2; font-size: 18px;">
+    <p><strong>Name:</strong> Mohan Krishna M</p>
+    <p><strong>Email:</strong> <a href="mailto:msmohanmalarmannan@gmail.com">msmohanmalarmannan@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+918220293437">+91 8220293437</a></p>
+    <p><strong>Address:</strong> 955 3, Settikulam St., Veerapperumanallur, Cuddalore</p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/m-s-mohan-krishna-93628926a" target="_blank">linkedin.com/in/m-s-mohan-krishna-93628926a</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/mohankrishna123456" target="_blank">github.com/mohankrishna123456</a></p>
+  </div>
+
+  <section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+      <li>C Programming</li>
+      <li>Java</li>
+      <li>Html</li>
+      <li>Css</li>
+      <li>MySql</li>
+      <li>Cloud Computing</li>
+      <li>Machine Learning</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+      <div class="project-card">
+        <h3>Money Tracking System</h3>
+        <p>A system to track daily expenses and give users insights into their spending for better financial management.</p>
+      </div>
+      <div class="project-card">
+        <h3>KCE Sports Android Application</h3>
+        <p>A mobile app for KCE to manage sports activities by storing player data, tracking attendance, showing live scores, and recording achievements.</p>
+      </div>
+        <div class="project-card">
+        <h3>Alopecia Areata Analysis Using Machine Learning</h3>
+        <p>A machine learning system that detects and analyzes alopecia areata from scalp images to support early diagnosis.</p>
+      </div>
+    </div>
+ <section id="achievements">
+ <h2>Achievements</h2>
+ <div class="achievements">
+      <div class="project-card">
+      <h3>2022 - Anna University Zone-10 Cricket Tournament 4th Place</h3>
+      </div><br>
+      <div class="project-card">
+      <h3>2023 - Anna University Zone-10 Cricket Tournament 3rd Place</h3>
+      </div><br>
+      <div class="project-card">
+      <h3>2023 - State Level Intercollegiate Cricket Tournament 1st Place</h3>
+      </div><br>
+      <div class="project-card">
+      <h3>2024 - Anna University Zone-10 Cricket Tournament 2nd Place</h3>
+      </div>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mohan krishna. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Thank you! Your message has been sent.");
+    });
+  </script>
+</body>
+</html>
